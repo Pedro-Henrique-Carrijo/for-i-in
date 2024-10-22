@@ -1,0 +1,11 @@
+# Escreva um algoritmo que leia uma sequência de números do usuário e realize a  soma desses números. Encerre a execução quando um número negativo for digitado.
+def soma_numeros():
+    soma = 0
+    while True:
+        numero = float(input("Digite um número: (para encerrar, digite um número negativo) "))
+        if numero < 0:
+            break
+        soma += numero
+    print(f"A soma dos números é: {soma}")
+
+soma_numeros()
