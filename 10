@@ -1,0 +1,8 @@
+# Faça um algoritmo que leia 20 números e, ao final, escreva quantos estão entre 0 e  100.  
+
+entre = 0
+for _ in range(10):
+    numeros = float(input("Qual seu numero?"))
+    if 0 <= numeros <= 100:
+        entre += 1
+print(f"no total {entre} numeros estão entre 0 e 100")
